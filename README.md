@@ -6,16 +6,16 @@
 1. 查询关键行
 
 ```
-  xxx -f splite matched_idx matched_key expore_idx file
+  xxx query matched_idx matched_key expore_idx file <split>
 ```
 
 2. 替换功能
 
 ```
-  xxx -r file.conf file
+  xxx replace file <conf.json>
 ```
 
-file.conf format
+conf.json format
 
 ```
 {
@@ -36,3 +36,5 @@ file.conf format
   }
 }
 ```
+
+TODO: replace function begin and end index Impl

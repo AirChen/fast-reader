@@ -1,0 +1,11 @@
+{
+    "match_file":{
+        "name":"match.txt",
+        "comps":[0, 1, 6],
+        "matched_idx": 0 
+    },
+    "ori_file":{
+        "comps":[0, 1, 6],
+        "matched_idx":0
+    }
+}
