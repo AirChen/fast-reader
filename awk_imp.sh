@@ -8,4 +8,4 @@ fi
 
 filename=$1
 key=$2
-cat $filename | awk '//'
+cat $filename | awk -v v1=$key '$0 ~ v1 {print $0}'
